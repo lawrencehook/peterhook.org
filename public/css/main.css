@@ -2,6 +2,10 @@ body {
 	text-align: center;
 }
 
+h1 {
+	font-size: 5vh;
+}
+
 #flowers {
 	max-height: 75vh;
 	max-width: 50%;
