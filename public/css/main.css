@@ -1,8 +1,13 @@
 body {
 	text-align: center;
 }
+
 #flowers {
 	max-height: 75vh;
 	max-width: 50%;
 	border-radius: 3px;
+}
+
+.hidden {
+	visibility: hidden;
 }
