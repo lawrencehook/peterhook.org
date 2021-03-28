@@ -16,3 +16,23 @@ h1 {
 .hidden {
 	visibility: hidden;
 }
+
+#sonnets {
+	display: block;
+	overflow: auto;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#sonnets div {
+	margin: 0 auto 30px;
+	min-width: 300px;
+	width: 50%;
+}
+
+@media (min-width: 775px) {
+	#sonnets div {
+		float: left;
+	}
+}
