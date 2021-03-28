@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-	font-size: min(max(25px, 8vh), 50vh);
+	font-size: 8vmin;
+	/*font-size: min(max(25px, 8vh), 50vh);*/
 }
 
 #flowers {
@@ -26,7 +27,8 @@ h1 {
 	margin-top: 15px;
 	margin-bottom: 15px;
 
-	font-size: min(max(10px, 4vh), 20vh);
+	font-size: 3vmin;
+	/*font-size: min(max(10px, 4vh), 20vh);*/
 }
 
 #sonnets div {
