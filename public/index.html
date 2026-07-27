@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Peter Hook</title>
@@ -15,91 +15,78 @@
     <link rel="icon" href="favicon.png">
   </head>
   <body>
-    <h1>Peter Hook</h1>
+    <header>
+      <h1>Peter Hook</h1>
+      <nav>
+        <span class="current">poems</span>
+        <span class="sep">·</span>
+        <a href="/papers/">papers</a>
+      </nav>
+      <img id="flowers" class="loading" src="assets/flowers.jpg" alt="flowers">
+    </header>
 
-    <img id="flowers" class="hidden" src="assets/flowers.jpg" alt="flowers">
+    <main>
+      <article class="poem">
+        <h2>Raking leaves on a warm and gusting winter's day</h2>
+        <pre>I should have known it all along
+No way to round up fallen leaves
+On a day like this with wind so strong
+It'd rip the rake right out of your hands.
 
-    <div id="sonnets">
-      <div id="sonnet1">
-        <br><b>Raking leaves on a warm and gusting winter's day</b>
-        <br>
-        <br>I should have known it all along
-        <br>No way to round up fallen leaves
-        <br>On a day like this with wind so strong
-        <br>It'd rip the rake right out of your hands.
-        <br>
-        <br>The leaves know, too, that they were wrong
-        <br>When they let go of branches they'd
-        <br>Been clinging to all summer long.
-        <br>They cut their ties a month too soon!
-        <br>
-        <br>Is it the wind – or pure despair
-        <br>That makes them wild and want to dance
-        <br>And whirl around me in the air
-        <br>Then spiral up in bowing towers
-        <br>
-        <br>As if to grasp the branches where
-        <br>They spent their last most happy hours?
-      </div>
+The leaves know, too, that they were wrong
+When they let go of branches they'd
+Been clinging to all summer long.
+They cut their ties a month too soon!
 
-      <div id="sonnet2">
-        <br><b>The good ship "Merriweather"</b>
-        <br>
-        <br>The good ship "Merriweather" came to grief
-        <br>While sailing in the South Australian Sea.
-        <br>She ran aground on the Great Barrier Reef
-        <br>And broke to bits and pieces of debris.
-        <br>
-        <br>All done in save a single green glass bottle
-        <br>That an old sailor emptied at a gulp.
-        <br>"Why wase a drap?" he muttered to a knothole
-        <br>Before they both were battered to a pulp.
-        <br>
-        <br>The bottle bobbed eleven thousand leagues
-        <br>On currents imperturbable and silent
-        <br>Outwitting all the winds' and waves' intrigues
-        <br>To dash it up against some rocky island,
-        <br>
-        <br>Until my daughter caught it by the neck
-        <br>And held it to the sun: "No letter. Heck!"
-      </div>
-    </div>
+Is it the wind – or pure despair
+That makes them wild and want to dance
+And whirl around me in the air
+Then spiral up in bowing towers
 
-    <hr>
+As if to grasp the branches where
+They spent their last most happy hours?</pre>
+      </article>
 
-    <div id='poems'>
+      <article class="poem">
+        <h2>The good ship "Merriweather"</h2>
+        <pre>The good ship "Merriweather" came to grief
+While sailing in the South Australian Sea.
+She ran aground on the Great Barrier Reef
+And broke to bits and pieces of debris.
 
-      <div class='poem-container'>
-        <div class='poem-text'>
-          <pre><b>A spring unsprung</b>
+All done in save a single green glass bottle
+That an old sailor emptied at a gulp.
+"Why wase a drap?" he muttered to a knothole
+Before they both were battered to a pulp.
 
-No tarter tongue has ever wrung
+The bottle bobbed eleven thousand leagues
+On currents imperturbable and silent
+Outwitting all the winds' and waves' intrigues
+To dash it up against some rocky island,
+
+Until my daughter caught it by the neck
+And held it to the sun: "No letter. Heck!"</pre>
+      </article>
+
+      <article class="poem">
+        <h2>A spring unsprung</h2>
+        <pre>No tarter tongue has ever wrung
 The peace and quiet from my mind.
 So highly strung she was among
 The most unhappy of her kind.
 At times she clung to me and hung.
 (Was there no other she could find?)
 When her mood swung the words she flung
-Oh, how they stung the undersigned!
-                                                             - Peter
+Oh, how they stung the undersigned!</pre>
+        <p class="byline">— Peter</p>
 
+        <audio controls src="assets/spring.mp3"></audio>
+        <p class="note">Music and voice by Andrew "Murugan" Looker</p>
+      </article>
 
-Music and voice by Andrew "Murugan" Looker</pre>
-        </div>
-
-        <div class='audio-container'>
-          <!-- <label for='spring-unsprung'>Spring Unsprung</label> -->
-          <audio id='spring-unsprung' controls>
-            <source src='assets/spring.mp3' type='audio/mpeg'>
-          </audio>
-        </div>
-      </div>
-
-      <div class='poem-container'>
-        <div class='poem-text'>
-          <pre><b>Autobiography in Ten Lines</b>
-
-Heaving left, then heeling right, now port, now starboard,
+      <article class="poem">
+        <h2>Autobiography in Ten Lines</h2>
+        <pre>Heaving left, then heeling right, now port, now starboard,
 I managed somehow to haul my hull through Harvard,
 Sought a steady compass from the anti-mystics
 Of Maharashtra and settled on linguistics.
@@ -109,14 +96,11 @@ That I satisfy my urge for solving puzzles
 Now by reading - even sometimes writing - ghazals.
 I got a doctorate from UPenn,
 Retired now till God knows when.</pre>
-        </div>
-      </div>
+      </article>
 
-      <div class='poem-container'>
-        <div class='poem-text'>
-          <pre><b>Sixtieth Reunion</b>
-
-Classmates, has it been that long since
+      <article class="poem">
+        <h2>Sixtieth Reunion</h2>
+        <pre>Classmates, has it been that long since
 with mind and bodies half decayed
 we slipped into our ninth decade?
 The thought's enough to make one wince!
@@ -133,10 +117,8 @@ Each moment bears his fingerprints
 
 while over coffee and a blintz
 we paint the past in golden tints.</pre>
-        </div>
-      </div>
-
-    </div>
+      </article>
+    </main>
 
     <script src="js/main.js"></script>
   </body>

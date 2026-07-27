@@ -1,4 +1,4 @@
-// Show images only after they're fully loaded.
+// Fade the image in only after it's fully loaded.
 
 const flowers = document.querySelector('#flowers');
-window.onload = () => { flowers.classList.remove('hidden') };
+window.onload = () => { flowers.classList.remove('loading') };
