@@ -128,6 +128,12 @@ audio {
 
 /* Papers */
 
+.bib-intro {
+	margin: 0 0 2.5rem;
+	font-style: italic;
+	color: var(--muted);
+}
+
 .bib {
 	margin: 0;
 	padding: 0;
