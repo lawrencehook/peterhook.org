@@ -162,6 +162,18 @@ span.bib-title {
 	color: var(--muted);
 }
 
+.bib-followup {
+	display: block;
+	margin-top: 0.2rem;
+	font-size: 0.9rem;
+	color: var(--muted);
+}
+
+.bib-followup a {
+	color: var(--fg);
+	text-decoration-color: var(--muted);
+}
+
 @media (max-width: 480px) {
 	body {
 		padding: 2rem 1.25rem 4rem;
